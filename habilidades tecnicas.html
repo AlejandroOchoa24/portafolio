@@ -1,0 +1,326 @@
+<!doctype html>
+<html> 
+<head>
+ 
+<title>Habilidades</title> 
+<link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet"> 
+
+ <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+ 
+   <style>
+body{
+	background-color:darkgray;
+}  
+ 
+.b-skills
+{
+	border-top: 1px solid darkgray;
+	padding-top: 46px;
+	text-align: center;
+}
+
+.b-skills:last-child { margin-bottom: -30px; }
+
+.b-skills h2 { margin-bottom: 50px; font-weight: 900; text-transform: uppercase;}
+
+.skill-item
+{
+	position: relative;
+	max-width: 250px;
+	width: 100%;
+	margin-bottom: 30px;
+	color: #555;
+}
+
+.chart-container
+{
+	position: relative;
+	width: 100%;
+	height: 0;
+	padding-top: 100%;
+	margin-bottom: 27px;
+}
+
+.skill-item .chart,
+.skill-item .chart canvas
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100% !important;
+	height: 100% !important;
+}
+
+.skill-item .chart:before
+{
+	content: "";
+	width: 0;
+	height: 100%;
+}
+
+.skill-item .chart:before,
+.skill-item .percent
+{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.skill-item .percent
+{
+	position: relative;
+	line-height: 1;
+	font-size: 40px;
+	font-weight: 900;
+	z-index: 2;
+}
+
+.skill-item  .percent:after
+{
+	content: attr(data-after);
+	font-size: 20px;
+}
+       
+       p{
+           font-weight: 900;
+       }   
+    </style>
+</head>
+
+<body>
+		<section id="s-team" class="section">
+			 
+			<br><br><br>
+
+			<div class="b-skills">
+				<div class="container">
+					<h2>Habilidades Técnicas</h2>
+					<div class="row">
+						<div class="col-xs-12 col-sm-6 col-md-3">
+							<div class="skill-item center-block">
+								<div class="chart-container">
+									<div class="chart" data-percent="85" data-color="#ad7d12">
+										<span class="percent" data-after="%">85</span>
+									</div>
+								</div>
+								<img src="img/ofimatica.png" width="55px">
+								<p>Ofimática</p>
+						   </div>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-3">
+							<div class="skill-item center-block">
+								<div class="chart-container">
+									<div class="chart" data-percent="70" data-color="#23afe3">
+										<span class="percent" data-after="%">70</span>
+									</div>
+								</div>
+								<img src="img/Adobe ilustrator.png" width="55px">
+                            <p>Adobe Ilustrator</p>
+							</div>
+						</div>
+
+						<div class="col-xs-12 col-sm-6 col-md-3">
+							<div class="skill-item center-block">
+								<div class="chart-container">
+									<div class="chart" data-percent="70" data-color="#ad7d12">
+										<span class="percent" data-after="%">70</span>
+									</div>
+								</div>
+								<img src="img/photoshop.png" width="55px">
+								<p>Photoshop</p>
+						   </div>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-3">
+							<div class="skill-item center-block">
+								<div class="chart-container">
+									<div class="chart" data-percent="40" data-color="#ad7d212">
+										<span class="percent" data-after="%">40</span>
+									</div>
+								</div>
+								<img src="img/lightroom.png" width="55px">
+								<p>Lightroom</p>
+						   </div>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-3">
+							<div class="skill-item center-block">
+								<div class="chart-container">
+									<div class="chart" data-percent="30" data-color="#ff4241">
+										<span class="percent" data-after="%">30</span>
+									</div>
+								</div>
+								<img src="img/indesign.svg" width="55px">
+								<p>Indesign</p>
+						   </div>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-3">
+							<div class="skill-item center-block">
+								<div class="chart-container">
+									<div class="chart" data-percent="80" data-color="#cdc214">
+										<span class="percent" data-after="%">80</span>
+									</div>
+								</div>
+								<img src="img/premiere.png" width="55px">
+								<p>Premiere</p>
+						   </div>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-3">
+							<div class="skill-item center-block">
+								<div class="chart-container">
+									<div class="chart" data-percent="60" data-color="#ff4241">
+										<span class="percent" data-after="%">60</span>
+									</div>
+								</div>
+								<img src="img/after.svg" width="55px">
+								<p>After</p>
+						   </div>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-3">
+							<div class="skill-item center-block">
+								<div class="chart-container">
+									<div class="chart" data-percent="30" data-color="#ff4241">
+										<span class="percent" data-after="%">30</span>
+									</div>
+								</div>
+								<img src="img/XD.svg" width="55px">
+								<p>XD</p>
+						   </div>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-3">
+							<div class="skill-item center-block">
+								<div class="chart-container">
+									<div class="chart" data-percent="60" data-color="#ff4241">
+										<span class="percent" data-after="%">60</span>
+									</div>
+								</div>
+								<img src="img/html5.png" width="55px">
+								<p>Htmls5</p>
+						   </div>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-3">
+							<div class="skill-item center-block">
+								<div class="chart-container">
+									<div class="chart" data-percent="40" data-color="#ff4241">
+										<span class="percent" data-after="%">40</span>
+									</div>
+								</div>
+								<img src="img/css3.png" width="55px">
+								<p>Css3</p>
+						   </div>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-3">
+							<div class="skill-item center-block">
+								<div class="chart-container">
+									<div class="chart" data-percent="30" data-color="#ff4241">
+										<span class="percent" data-after="%">30</span>
+									</div>
+								</div>
+								<img src="img/javascript.png" width="55px">
+								<p>Javascript</p>
+						   </div>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-3">
+							<div class="skill-item center-block">
+								<div class="chart-container">
+									<div class="chart" data-percent="60" data-color="#ff4241">
+										<span class="percent" data-after="%">60</span>
+									</div>
+								</div>
+								<img src="img/visual studio.png" width="55px">
+								<p>Visual Studio</p>
+						   </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-3">
+							<div class="skill-item center-block">
+								<div class="chart-container">
+									<div class="chart" data-percent="60" data-color="#ff4241">
+										<span class="percent" data-after="%">60</span>
+									</div>
+								</div>
+								<img src="img/git.png" width="55px">
+								<p>Git</p>
+						   </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-3">
+							<div class="skill-item center-block">
+								<div class="chart-container">
+									<div class="chart" data-percent="40" data-color="#ff4241">
+										<span class="percent" data-after="%">40</span>
+									</div>
+								</div>
+								<img src="img/bootstrap.png" width="55px">
+								<p>Bootstrap</p>
+						   </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-3">
+							<div class="skill-item center-block">
+								<div class="chart-container">
+									<div class="chart" data-percent="20" data-color="#ff4241">
+										<span class="percent" data-after="%">20</span>
+									</div>
+								</div>
+								<img src="img/cms.svg" width="80px">
+								<p>CMS</p>
+						   </div>
+						</div>
+					</div>
+				</div>
+            </div>
+		</section>
+ <script src="plugins/jquery-2.2.4.min.js"></script>
+ <script src="plugins/jquery.appear.min.js"></script>
+ <script src="plugins/jquery.easypiechart.min.js"></script> 
+ <script>
+    'use strict';
+
+var $window = $(window);
+
+function run()
+{
+	var fName = arguments[0],
+		aArgs = Array.prototype.slice.call(arguments, 1);
+	try {
+		fName.apply(window, aArgs);
+	} catch(err) {
+		 
+	}
+};
+ 
+/* chart
+================================================== */
+function _chart ()
+{
+	$('.b-skills').appear(function() {
+		setTimeout(function() {
+			$('.chart').easyPieChart({
+				easing: 'easeOutElastic',
+				delay: 3000,
+				barColor: '#369670',
+				trackColor: '#fff',
+				scaleColor: false,
+				lineWidth: 21,
+				trackWidth: 21,
+				size: 250,
+				lineCap: 'round',
+				onStep: function(from, to, percent) {
+					this.el.children[0].innerHTML = Math.round(percent);
+				}
+			});
+		}, 150);
+	});
+};
+ 
+
+$(document).ready(function() {
+  
+	run(_chart);
+  
+    
+});
+
+
+    
+    </script>
+ 
+   
+</body>
+ 
+</html>
