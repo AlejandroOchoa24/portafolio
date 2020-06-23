@@ -4,11 +4,11 @@
 @import url(style.css);
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 body {
-    background-color: darkgray;
+    background:url(../img/fondo.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
-
 .b-skills {
-    border-top: 1px solid darkgray;
     padding-top: 46px;
     text-align: center;
 }
@@ -28,7 +28,7 @@ body {
     max-width: 250px;
     width: 100%;
     margin-bottom: 30px;
-    color: #555;
+    color: white;
 }
 
 .chart-container {
@@ -74,9 +74,14 @@ body {
 }
 
 p {
-    font-weight: 900;
+    font-weight: 700;
+    font-family: "Sawarabi Gothic", sans-serif;
+     color: white;
 }
-
+h2 {
+    font-family: "staatliches", sans-serif;
+    color: white;
+  }
 button {
     background-color: none;
     color: #ccc;

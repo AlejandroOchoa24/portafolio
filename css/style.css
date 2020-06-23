@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 @import url(menu.css);
 @import url('https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&family=Staatliches&display=swap');
-@import url(tarjetas.css);
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 
 body,
@@ -51,8 +50,9 @@ p {
   font-family: "Sawarabi Gothic", sans-serif;
 }
 
-.barra {
+.barra a{
   font-family: "Sawarabi Gothic", sans-serif;
+  color: #fff;
 }
 
 h3 {

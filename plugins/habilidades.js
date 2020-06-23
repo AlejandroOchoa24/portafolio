@@ -16,7 +16,7 @@ function _chart() {
             $('.chart').easyPieChart({
                 easing: 'easeOutElastic',
                 delay: 3000,
-                barColor: '#369670',
+                barColor: '#000000',
                 trackColor: '#fff',
                 scaleColor: false,
                 lineWidth: 21,
