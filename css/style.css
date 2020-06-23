@@ -50,9 +50,8 @@ p {
   font-family: "Sawarabi Gothic", sans-serif;
 }
 
-.barra a{
-  font-family: "Sawarabi Gothic", sans-serif;
-  color: #fff;
+a{
+  color: white !important;
 }
 
 h3 {
