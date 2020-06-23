@@ -166,14 +166,6 @@ header .contenedor_1 {
   width: 250px;
   padding: 10px;
 }
-
-.cajita3 h2 {
-  justify-content: center;
-}
-.cajita3 p {
-  justify-content: center;
-}
-
 @media(max-width:250px) {
 
   .pimg1,
