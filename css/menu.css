@@ -21,7 +21,7 @@ header label{
     display: block;
     color: white;
     height: 50px;
-    text-decoration: none;
+    text-decoration: none !important;
     padding: 29px;
     border-bottom: 1px solid #990000;
 }
