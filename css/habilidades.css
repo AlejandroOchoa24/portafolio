@@ -3,13 +3,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&family=Staatliches&display=swap');
 @import url(style.css);
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
-
+/* Principal */
 body {
     background: url(../img/fondo.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-
+/* Progrees-bar*/
 .b-skills {
     padding-top: 46px;
     text-align: center;
@@ -74,7 +74,7 @@ body {
     content: attr(data-after);
     font-size: 20px;
 }
-
+/* texto */
 p {
     font-weight: 700;
     font-family: "Sawarabi Gothic", sans-serif;

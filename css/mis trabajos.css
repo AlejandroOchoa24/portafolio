@@ -4,7 +4,7 @@
 @import url(style.css);
 @import url(habilidades.css);
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
-
+/* Principal */
 body {
     background: url(../img/fondo.png);
     background-repeat: no-repeat;
@@ -28,6 +28,7 @@ h2 {
 a {
     color: white !important;
 }
+/* Galeria */
 .galeria{
     font-family: 'open sans';
 }
@@ -85,7 +86,7 @@ a {
     height:100%;
     cursor: pointer;
 }
-
+/* Responsive */
 @media screen and (max-width:1000px){
     .contenedor-imagenes{
         width: 95%;
@@ -150,6 +151,7 @@ a {
     position: relative;
     /*lado izquierdo*/
   }
+  /* Responsive exportado */
   @media only screen and (max-width: 2150px) {
     .container_carru #items {
       height: 630px;

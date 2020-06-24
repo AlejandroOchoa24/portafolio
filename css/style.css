@@ -2,7 +2,6 @@
 @import url(menu.css);
 @import url('https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&family=Staatliches&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
-
 body,
 html {
   height: 100%;
@@ -65,7 +64,7 @@ header .contenedor_1 {
   display: table;
 }
 
-/* parallax */
+/* parallax Responsive */
 
 @media screen and (max-width:250px) {
   header .textos h1 {
@@ -164,7 +163,7 @@ header .contenedor_1 {
 }
 
 .foto-profesional {
-  width: 250px;
+  width: 300px;
   padding: 10px;
 }
 @media(max-width:250px) {
