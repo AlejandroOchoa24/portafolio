@@ -2,6 +2,7 @@
 @import url(menu.css);
 @import url('https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&family=Staatliches&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
 body,
 html {
   height: 100%;
@@ -49,7 +50,7 @@ p {
   font-family: "Sawarabi Gothic", sans-serif;
 }
 
-a{
+a {
   font-size: 20px;
   font-family: "Sawarabi Gothic", sans-serif;
   color: white !important;
@@ -63,15 +64,18 @@ h3 {
 header .contenedor_1 {
   display: table;
 }
+
 /*animaciones*/
-.animate__lightSpeedInLeft{
+.animate__lightSpeedInLeft {
   animation-delay: 1s;
   animation-duration: 2s;
 }
-.animate__zoomIn{
+
+.animate__zoomIn {
   animation-delay: 1s;
   animation-duration: 5s;
 }
+
 /* parallax Responsive */
 
 @media screen and (max-width:250px) {
@@ -140,12 +144,14 @@ header .contenedor_1 {
   background-color: #820000;
   color: #ddd;
 }
+
 .section-dark3 {
   background-color: black;
   color: #ddd;
   font-size: 20px;
   text-align: center;
 }
+
 .ptext {
   font-family: "staatliches", sans-serif;
   position: absolute;
@@ -179,6 +185,7 @@ header .contenedor_1 {
   width: 300px;
   padding: 10px;
 }
+
 @media(max-width:250px) {
 
   .pimg1,

@@ -3,30 +3,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&family=Staatliches&display=swap');
 @import url(style.css);
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
 /* Principal */
 body {
     background: url(../img/fondo.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+
 /*animaciones*/
-.animate__lightSpeedInLeft{
+.animate__lightSpeedInLeft {
     animation-delay: 1s;
     animation-duration: 2s;
-  }
-  .animate__zoomIn{
+}
+
+.animate__zoomIn {
     animation-delay: 1s;
     animation-duration: 5s;
-  }
-  .animate__bounceInDown{
+}
+
+.animate__bounceInDown {
     animation-delay: 1s;
-    animation-duration: 3s; 
-  }
+    animation-duration: 3s;
+}
+
 /* Progrees-bar*/
-li{
-    list-style:none;
+li {
+    list-style: none;
     font-size: 30px;
 }
+
 .b-skills {
     padding-top: 46px;
     text-align: center;
@@ -91,6 +97,7 @@ li{
     content: attr(data-after);
     font-size: 20px;
 }
+
 /* texto */
 p {
     font-weight: 700;
