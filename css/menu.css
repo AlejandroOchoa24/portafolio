@@ -32,6 +32,15 @@ header label{
 #menu-bar:checked ~ .menu{
     transform: translateX(0%);
 }
+/*animaciones*/
+.animate__lightSpeedInLeft{
+    animation-delay: 1s;
+    animation-duration: 2s;
+  }
+  .animate__zoomIn{
+    animation-delay: 1s;
+    animation-duration: 5s;
+  }
 /* Responsive- aquí se adapta la letra */
 @media (min-width:1024px){
     .menu{

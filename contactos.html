@@ -2,95 +2,104 @@
 <html lang="es">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <meta name="viewport"
-    content="width=device-width, user-scalable=no, initial-scale=1.0 , maximum-scale=1.0, minimum-scale=1.0">
-  <link rel="stylesheet" href="css/fontello.css">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/menu.css">
-  <link rel="stylesheet" href="css/mis trabajos.css">
-  <link rel="stylesheet" href="css/contactos.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="icon" type="image/vnd.microsoft.icon" href="favicon.ico">
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-  <title>Portafolio</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0 , maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/fontello.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/mis trabajos.css">
+    <link rel="stylesheet" href="css/contactos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="favicon.ico">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <title>Mis Contactos</title>
 </head>
 
 <body>
   <!--barra de navegación-->
   <header>
     <div class="contenedor_1">
-      <h1>Portafolio</h1>
+      <h1 class="animate__lightSpeedInLeft">Portafolio</h1>
       <input type="checkbox" id="menu-bar">
       <label class="icon-menu-outline" for="menu-bar"></label>
       <nav class="menu">
-        <a class="barra" href="index.html">Inicio</a>
-        <a class="barra" href="Habilidades.html">Habilidades</a>
-        <a class="barra" href="Mis trabajos.html">Mis Trabajos</a>
-        <a class="barra" href="contactos.html">Contactos</a>
+        <a class="barra animate__lightSpeedInLeft" href="index.html">Inicio</a>
+        <a class="barra animate__lightSpeedInLeft" href="Habilidades.html">Habilidades</a>
+        <a class="barra animate__lightSpeedInLeft" href="Mis trabajos.html">Mis Trabajos</a>
+        <a class="barra animate__lightSpeedInLeft" href="contactos.html">Contactos</a>
       </nav>
     </div>
   </header>
-  <br><br><br><br>
-  <!--Formulario-->
-  <div class="container">
-    <div style="text-align:center">
-      <h2>CONTÁCTAME</h2>
-      <p>Llena este formulario para comunicarme contigo, para alguna sugerencia, queja o reclamo.</p>
+    <br><br><br><br>
+    <!--Formulario-->
+    <div class="container">
+        <div style="text-align:center">
+            <h2>CONTÁCTAME</h2>
+            <p>Llena este formulario para comunicarme contigo, para alguna sugerencia, queja o reclamo.</p>
+        </div>
+        <div class="row">
+            <div class="column">
+                <br><br>
+                <img src="img/fondo3.png" class="animate__rotateInDownLeft" width="100%" height="500px">
+            </div>
+            <div class="column">
+                <form action="/action_page.php">
+                    <label for="fname">
+                        <h2>Primer Nombre</h2>
+                    </label>
+                    <input type="text" id="fname" name="firstname" placeholder="Tu Nombre...">
+                    <label for="lname">
+                        <h2>Primer Apellido</h2>
+                    </label>
+                    <input type="text" id="lname" name="lastname" placeholder="Tu Apellido...">
+                    <label for="country">
+                        <h2>Ciudad</h2>
+                    </label>
+                    <select id="country" name="country">
+                        <option value="Bogotá">Bogotá</option>
+                        <option value="Resto del País">Resto del país</option>
+                    </select>
+                    <label for="subject">
+                        <h2>Caracteres</h2>
+                    </label>
+                    <textarea id="subject" name="subject" placeholder="Escribe Algo..." style="height:170px"></textarea>
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
+        </div>
     </div>
-    <div class="row">
-      <div class="column">
-          <br><br>
-        <img src="img/fondo3.png" width="100%" height="500px">
-      </div>
-      <div class="column">
-        <form action="/action_page.php">
-          <label for="fname"><h2>Primer Nombre</h2></label>
-          <input type="text" id="fname" name="firstname" placeholder="Tu Nombre...">
-          <label for="lname"><h2>Primer Apellido</h2></label>
-          <input type="text" id="lname" name="lastname" placeholder="Tu Apellido...">
-          <label for="country"><h2>Ciudad</h2></label>
-          <select id="country" name="country">
-            <option value="australia">Barrancabermeja</option>
-            <option value="canada">Boyacá</option>
-            <option value="usa">Sincelejo</option>
-          </select>
-          <label for="subject"><h2>Caracteres</h2></label>
-          <textarea id="subject" name="subject" placeholder="Escribe Algo..." style="height:170px"></textarea>
-          <input type="submit" value="Enviar">
-        </form>
-      </div>
-    </div>
-  </div>
-  <br>
-  <!--iconos y enlaces de redes sociales-->
-  <center>
-  <h2>Mis Redes Sociales</h2>
+    <br>
+    <!--iconos y enlaces de redes sociales-->
+    <center>
+        <h2>Mis Redes Sociales</h2>
 
-<!-- Add font awesome icons -->
-<a href="https://m.facebook.com/home.php?_rdr" class="fa fa-facebook"></a>
-<a href="https://www.youtube.com/channel/UCf24s771IjhdtKT1lOhN28w" class="fa fa-youtube"></a>
-<a href="https://www.instagram.com/p/CB0oD-ClNM8/?utm_source=ig_web_button_share_sheet" class="fa fa-instagram"></a>
-<a href="https://api.whatsapp.com/send?phone=3152138427&text=Cont%C3%A1ctame" class="fa fa-whatsapp"></a>
-<a href="mailto:ochoaalejandro.portafolio24@gmail.com" class="fa fa-envelope"></a>
-</center>
+        <!-- Add font awesome icons -->
+        <a href="https://m.facebook.com/home.php?_rdr" class="fa fa-facebook"></a>
+        <a href="https://www.youtube.com/channel/UCf24s771IjhdtKT1lOhN28w" class="fa fa-youtube"></a>
+        <a href="https://www.instagram.com/p/CB0oD-ClNM8/?utm_source=ig_web_button_share_sheet"
+            class="fa fa-instagram"></a>
+        <a href="https://api.whatsapp.com/send?phone=3152138427&text=Cont%C3%A1ctame" class="fa fa-whatsapp"></a>
+        <a href="mailto:ochoaalejandro.portafolio24@gmail.com" class="fa fa-envelope"></a>
+    </center>
     <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-  </script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-  </script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
-  </script>
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.4/hammer.min.js'></script>
-  <script src="javascript/script.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    </script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.4/hammer.min.js'></script>
+    <script src="javascript/script.js"></script>
 </body>
 
 </html>

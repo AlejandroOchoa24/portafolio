@@ -35,7 +35,19 @@ a {
 * {
     box-sizing: border-box;
 }
-
+/*animaciones*/
+.animate__lightSpeedInLeft{
+    animation-delay: 1s;
+    animation-duration: 2s;
+  }
+  .animate__zoomIn{
+    animation-delay: 1s;
+    animation-duration: 5s;
+  }
+  .animate__rotateInDownLeft{
+    animation-delay: 1s;
+    animation-duration: 3s;
+  }
 /* Estilo inputs */
 input[type=text],
 select,

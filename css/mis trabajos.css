@@ -28,6 +28,19 @@ h2 {
 a {
     color: white !important;
 }
+/*animaciones*/
+.animate__lightSpeedInLeft{
+  animation-delay: 1s;
+  animation-duration: 2s;
+}
+.animate__zoomIn{
+  animation-delay: 1s;
+  animation-duration: 5s;
+}
+.animate__swing{
+  animation-delay: 3s;
+  animation-duration: 3s;
+}
 /* Galeria */
 .galeria{
     font-family: 'open sans';

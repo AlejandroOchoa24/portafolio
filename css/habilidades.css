@@ -9,7 +9,24 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+/*animaciones*/
+.animate__lightSpeedInLeft{
+    animation-delay: 1s;
+    animation-duration: 2s;
+  }
+  .animate__zoomIn{
+    animation-delay: 1s;
+    animation-duration: 5s;
+  }
+  .animate__bounceInDown{
+    animation-delay: 1s;
+    animation-duration: 3s; 
+  }
 /* Progrees-bar*/
+li{
+    list-style:none;
+    font-size: 30px;
+}
 .b-skills {
     padding-top: 46px;
     text-align: center;

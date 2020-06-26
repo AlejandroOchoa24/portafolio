@@ -63,7 +63,15 @@ h3 {
 header .contenedor_1 {
   display: table;
 }
-
+/*animaciones*/
+.animate__lightSpeedInLeft{
+  animation-delay: 1s;
+  animation-duration: 2s;
+}
+.animate__zoomIn{
+  animation-delay: 1s;
+  animation-duration: 5s;
+}
 /* parallax Responsive */
 
 @media screen and (max-width:250px) {
@@ -132,7 +140,12 @@ header .contenedor_1 {
   background-color: #820000;
   color: #ddd;
 }
-
+.section-dark3 {
+  background-color: black;
+  color: #ddd;
+  font-size: 20px;
+  text-align: center;
+}
 .ptext {
   font-family: "staatliches", sans-serif;
   position: absolute;

@@ -3,14 +3,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&family=Staatliches&display=swap');
 @import url(style.css);
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
-/*principal*/
-body{
-	background-color:darkgray;
-}  
+
  /* Progrees-bar*/
 .b-skills
 {
-	border-top: 1px solid darkgray;
+	border-top: 1px solid white;
 	padding-top: 46px;
 	text-align: center;
 }
@@ -25,7 +22,7 @@ body{
 	max-width: 250px;
 	width: 100%;
 	margin-bottom: 30px;
-	color: #555;
+	color: #ffffff;
 }
 
 .chart-container

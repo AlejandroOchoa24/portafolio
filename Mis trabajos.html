@@ -11,44 +11,46 @@
   <link rel="stylesheet" href="css/menu.css">
   <link rel="stylesheet" href="css/mis trabajos.css">
   <link rel="icon" type="image/vnd.microsoft.icon" href="favicon.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-  <title>Portafolio</title>
+  <title>Mis Trabajos</title>
 </head>
 
 <body>
   <!--barra de navegación-->
   <header>
     <div class="contenedor_1">
-      <h1>Portafolio</h1>
+      <h1 class="animate__lightSpeedInLeft">Portafolio</h1>
       <input type="checkbox" id="menu-bar">
       <label class="icon-menu-outline" for="menu-bar"></label>
       <nav class="menu">
-        <a class="barra" href="index.html">Inicio</a>
-        <a class="barra" href="Habilidades.html">Habilidades</a>
-        <a class="barra" href="Mis trabajos.html">Mis Trabajos</a>
-        <a class="barra" href="contactos.html">Contactos</a>
+        <a class="barra animate__lightSpeedInLeft" href="index.html">Inicio</a>
+        <a class="barra animate__lightSpeedInLeft" href="Habilidades.html">Habilidades</a>
+        <a class="barra animate__lightSpeedInLeft" href="Mis trabajos.html">Mis Trabajos</a>
+        <a class="barra animate__lightSpeedInLeft" href="contactos.html">Contactos</a>
       </nav>
     </div>
   </header>
   <br><br><br><br>
+  <!--Galeria-->
   <div class="galeria">
     <h2>ILUSTRACIONES</h2>
     <div class="contenedor-imagenes">
-      <div class="imagen">
+      <div class="imagen animate__swing">
         <img src="img/ilustracion1.png" alt="imagen 1">
         <div class="overlay">
           <h2>VECTORIZADOS</h2>
         </div>
       </div>
-      <div class="imagen">
+      <div class="imagen animate__swing">
         <img src="img/fondo2.svg" alt="imagen 2">
         <div class="overlay">
           <h2>3D</h2>
         </div>
       </div>
-      <div class="imagen">
+      <div class="imagen animate__swing">
         <img src="img/tarjetas.png" alt="imagen 3">
         <div class="overlay">
           <h2>TARJETAS</h2>
@@ -59,36 +61,41 @@
   <main class="container">
     <section class="row mt-5">
     </section>
+    <!--página web-->
     <section>
       <h2 class="h2 text-center">HTML5</h2><br>
       <div class="row mt-2">
         <div class="col-lg-12">
           <div class="row">
-              <a href="https://alejandroochoa24.github.io/fresco-pan-2/" button type="button" class="btn btn-dark btn-lg btn-block">HTML5/CSS</button></a>
-            </div>
+            <a href="https://alejandroochoa24.github.io/fresco-pan-2/" button type="button"
+              class="btn btn-dark btn-lg btn-block">PÁGINA WEB-FRESCO PAN 2</button></a>
           </div>
-        </div>
-        </div>
-        <br>
-        <h2 class="h2 text-center">AUDIOVISUAL</h2><br>
-        <div class="col-lg-12">
-          <div class="row">
-          <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/LIuzdhKhQw0"
-              allowfullscreen></iframe>
         </div>
       </div>
       </div>
       <br>
-        <h2 class="h2 text-center">AUDIO</h2><br>
-      <div class="col-lg-12">  
-      <center><audio controls>
+      <!--video-->
+      <h2 class="h2 text-center">AUDIOVISUAL</h2><br>
+      <div class="col-lg-12">
+        <div class="row">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/LIuzdhKhQw0"
+              allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+      <br>
+      <!--audio-->
+      <h2 class="h2 text-center">AUDIO</h2><br>
+      <div class="col-lg-12">
+        <center><audio controls>
             <source src="horse.ogg" type="audio/ogg">
             <source src="mp3/Transmedia (online-audio-converter.com).mp3" type="audio/mpeg"></audio></center>
-    </div>
+      </div>
     </section>
   </main>
   <br>
+  <!--carrusel-->
   <center>
     <h2>FOTOGRAFÍA</h2>
   </center>
@@ -109,6 +116,10 @@
       <img draggable="false" id="item" src="img/fotografia/5.jpg">
       <img draggable="false" id="item" src="img/fotografia/6.jpg">
       <img draggable="false" id="item" src="img/fotografia/7.jpg">
+      <img draggable="false" id="item" src="img/fotografia/8.jpg">
+      <img draggable="false" id="item" src="img/fotografia/9.jpg">
+      <img draggable="false" id="item" src="img/fotografia/10.jpg">
+      <img draggable="false" id="item" src="img/fotografia/11.jpg">
     </div>
   </div>
   <!-- Optional JavaScript -->
